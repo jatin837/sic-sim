@@ -11,3 +11,5 @@ R (2) (2, 3)
 R (3) (3, 0)
 R (4) (3, 0)
 ```sh
+
+[source code for example netlist](https://raw.githubusercontent.com/jatin837/sic-sim/main/ex1.cir?token=APFO6ORTHPH7UHEPA6O5ZULBCTKOA)
