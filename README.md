@@ -1,4 +1,5 @@
 # sic-sim
+# !!! UNDER DEVELOPMENT !!!
 A simple Circuit Simulator. Just describe netlist, and generate circuit diagram and circuit parameters
 
 # [Example NetList](https://raw.githubusercontent.com/jatin837/sic-sim/main/ex1.cir?token=APFO6ORTHPH7UHEPA6O5ZULBCTKOA)
