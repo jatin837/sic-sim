@@ -16,3 +16,9 @@ R (4) (3, 0)
 
 ![Screenshot from 2021-08-05 13-39-02](https://user-images.githubusercontent.com/63631162/128315400-346fb768-44be-4a01-bf17-3cf2c0407b1b.png)
 
+# Goal
+```sh
+1 ==> 12
+2 ==> 9.45
+3 ==> 4.36
+```
