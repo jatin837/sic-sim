@@ -6,4 +6,3 @@ data Component =
  V Float | R Float | I Float
 
 
-
