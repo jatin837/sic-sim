@@ -14,11 +14,5 @@ R (4) (3, 0)
 ```
 # Diagram of circuit in this example
 
-![Screenshot from 2021-08-05 13-39-02](https://user-images.githubusercontent.com/63631162/128315400-346fb768-44be-4a01-bf17-3cf2c0407b1b.png)
+![Screenshot from 2021-08-19 11-52-09](https://user-images.githubusercontent.com/63631162/130018381-74c6b50e-4d97-42d0-8651-b94083306031.png)
 
-# Goal
-```sh
-1 ==> 12
-2 ==> 9.45
-3 ==> 4.36
-```
