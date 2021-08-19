@@ -31,6 +31,9 @@ getNodeList cir = tail
  $ nub
  $ concatMap getNodeFromBranch cir
 
+--getConnectedComponents :: Node -> Circuit -> [Component]
+--getConnectedComponents n circuit = filter  
+
 n = length
  $ getNodeList cir
 
