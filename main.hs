@@ -1,4 +1,5 @@
 import Data.List
+import Data.Matrix
 
 type Volt = Float
 type Amp = Float
@@ -29,3 +30,8 @@ getNodeList cir = tail
  $ sort
  $ nub
  $ concatMap getNodeFromBranch cir
+
+n = length
+ $ getNodeList cir
+
+g = zero n n
