@@ -1,3 +1,5 @@
+import Data.List
+
 type Volt = Float
 type Amp = Float
 type Ohm = Float
@@ -22,3 +24,8 @@ getNodeFromBranch b = [a1, a2] where
  a1 = fst $ fst b 
  a2 = snd $ fst b 
 
+getNodeList :: Circuit -> [Node]
+getNodeList cir = tail 
+ $ sort
+ $ nub
+ $ concatMap getNodeFromBranch cir
