@@ -34,8 +34,9 @@ getNodeList cir = tail
 isNodeInBranch :: Node -> Branch -> Bool
 isNodeInBranch n b = elem  n $ getNodeFromBranch b
 
---getConnectedComponents :: Node -> Circuit -> [Component]
---getConnectedComponents n circuit = filter  
+getConnectedComponents :: Node -> Circuit -> [Component]
+getConnectedComponents n circuit = map snd 
+ $ filter (isNodeInBranch n) circuit
 
 n = length
  $ getNodeList cir
