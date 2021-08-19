@@ -16,3 +16,9 @@ cir = [
  ((2, 3), R 4),
  ((0, 3), V 20)
  ]
+
+getNodeFromBranch :: Branch -> [Node]
+getNodeFromBranch b = [a1, a2] where 
+ a1 = fst $ fst b 
+ a2 = snd $ fst b 
+
