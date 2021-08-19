@@ -38,6 +38,9 @@ getConnectedComponents :: Node -> Circuit -> [Component]
 getConnectedComponents n circuit = map snd 
  $ filter (isNodeInBranch n) circuit
 
+indexList :: Int -> Int -> [(Int, Int)]
+indexList i j = [(i, j) | i <- [1..n], j <- [1..n]]
+
 n = length
  $ getNodeList cir
 
