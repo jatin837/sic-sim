@@ -41,6 +41,11 @@ getConnectedComponents n circuit = map snd
 indexList :: Int -> Int -> [(Int, Int)]
 indexList i j = [(i, j) | i <- [1..n], j <- [1..n]]
 
+getComponentValue :: Component -> Float
+getComponentValue (R val) = val
+getComponentValue (V val) = val
+getComponentValue (I val) = val
+
 n = length
  $ getNodeList cir
 
