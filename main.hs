@@ -46,6 +46,11 @@ getComponentValue (R val) = val
 getComponentValue (V val) = val
 getComponentValue (I val) = val
 
+getTotalConductance :: (Node, Node) -> Circuit -> Double
+getTotalConductance (i, j)
+ | i == j = 5.0 -- TODO get resistors connected to i
+ | otherwise = 6.6 -- TODO get resistors connected to i, j
+
 n = length
  $ getNodeList cir
 
