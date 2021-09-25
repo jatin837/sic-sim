@@ -49,4 +49,4 @@ getComponentValue (I val) = val
 n = length
  $ getNodeList cir
 
-g = zero n n
+g = matrix n n (\(_, _) -> 0.0)
